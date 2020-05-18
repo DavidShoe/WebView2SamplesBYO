@@ -1,0 +1,10 @@
+www.google.com/^/recaptcha/
+console.aws.amazon.com/^/
+my.salesforce.com/^/
+gigya.com/^/
+disqus.com/^/
+auth.adobe.com/^/
+signin.aws.amazon.com/^/
+getsatisfaction.com/^/
+accounts.google.com/^/
+zendesk.com/^/
