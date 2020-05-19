@@ -363,7 +363,7 @@
   <ProductReservedInfo>
     <MainPackageIdentityName>MicrosoftPAXAppDev.WebView2APISampleTest</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>WebView 2 API Sample Test</ReservedName>
+      <ReservedName>WebView BYO Sample</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>

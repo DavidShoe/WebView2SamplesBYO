@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="BYO">
+      <UniqueIdentifier>{d9fcb530-edb8-4d24-ac75-daf13037ff1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BYO\X64">
+      <UniqueIdentifier>{3c1b9f80-4a2a-4f4c-b1e5-7e142c679ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BYO\x32">
+      <UniqueIdentifier>{1c195cba-8feb-4d25-84e0-5a810ebfbf2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BYO\arm64">
+      <UniqueIdentifier>{297e8811-b43a-46eb-a840-547376c6bf99}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp">
@@ -126,10 +138,6 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="$(MSBuildThisFileDirectory)$(EffectivePlatform)\WebView2Loader.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <CopyFileToFolders Include="ScenarioWebMessage.html" />
     <CopyFileToFolders Include="ScenarioAddRemoteObject.html" />
     <CopyFileToFolders Include="ScenarioWebViewEventMonitor.html" />
@@ -141,10 +149,1713 @@
     <Image Include="WebView2APISample.ico">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="BYO\x32\VisualElements\LogoBeta.png">
+      <Filter>BYO\x32</Filter>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\LogoCanary.png">
+      <Filter>BYO\x32</Filter>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\LogoDev.png">
+      <Filter>BYO\x32</Filter>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\SmallLogoBeta.png">
+      <Filter>BYO\x32</Filter>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\SmallLogoCanary.png">
+      <Filter>BYO\x32</Filter>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\SmallLogoDev.png">
+      <Filter>BYO\x32</Filter>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\Logo.png">
+      <Filter>BYO\x32</Filter>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\SmallLogo.png">
+      <Filter>BYO\x32</Filter>
+    </Image>
+    <Image Include="BYO\x32\Notifications\SoftLandingAssetDark.gif">
+      <Filter>BYO\x32</Filter>
+    </Image>
+    <Image Include="BYO\x32\Notifications\SoftLandingAssetLight.gif">
+      <Filter>BYO\x32</Filter>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\LogoBeta.png">
+      <Filter>BYO\arm64</Filter>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\LogoCanary.png">
+      <Filter>BYO\arm64</Filter>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\LogoDev.png">
+      <Filter>BYO\arm64</Filter>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\SmallLogoBeta.png">
+      <Filter>BYO\arm64</Filter>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\SmallLogoCanary.png">
+      <Filter>BYO\arm64</Filter>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\SmallLogoDev.png">
+      <Filter>BYO\arm64</Filter>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\Logo.png">
+      <Filter>BYO\arm64</Filter>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\SmallLogo.png">
+      <Filter>BYO\arm64</Filter>
+    </Image>
+    <Image Include="BYO\arm64\Notifications\SoftLandingAssetDark.gif">
+      <Filter>BYO\arm64</Filter>
+    </Image>
+    <Image Include="BYO\arm64\Notifications\SoftLandingAssetLight.gif">
+      <Filter>BYO\arm64</Filter>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\LogoBeta.png">
+      <Filter>BYO\X64</Filter>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\LogoCanary.png">
+      <Filter>BYO\X64</Filter>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\LogoDev.png">
+      <Filter>BYO\X64</Filter>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\SmallLogoBeta.png">
+      <Filter>BYO\X64</Filter>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\SmallLogoCanary.png">
+      <Filter>BYO\X64</Filter>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\SmallLogoDev.png">
+      <Filter>BYO\X64</Filter>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\Logo.png">
+      <Filter>BYO\X64</Filter>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\SmallLogo.png">
+      <Filter>BYO\X64</Filter>
+    </Image>
+    <Image Include="BYO\x64\Notifications\SoftLandingAssetDark.gif">
+      <Filter>BYO\X64</Filter>
+    </Image>
+    <Image Include="BYO\x64\Notifications\SoftLandingAssetLight.gif">
+      <Filter>BYO\X64</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="HostObjectSample.idl">
       <Filter>Source Files</Filter>
     </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="$(MSBuildThisFileDirectory)$(EffectivePlatform)\WebView2Loader.dll" />
+    <None Include="$(MSBuildThisFileDirectory)$(EffectivePlatform)\WebView2Loader.dll" />
+    <None Include="$(MSBuildThisFileDirectory)$(EffectivePlatform)\WebView2Loader.dll" />
+    <None Include="BYO\x32\about_credits.html">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\msedge.dll.sig">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\msedgewebview.exe.sig">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll.sig">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\msedge.exe.sig">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\libEGL.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\swiftshader\libEGL.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\libGLESv2.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\swiftshader\libGLESv2.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\msedge_elf.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\oneds.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\msedge.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\oneauth.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\elevation_service.exe">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\EBWebView\x86\EmbeddedBrowserWebView.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\nacl64.exe">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\telclient.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\wns_push_client.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\dual_engine_adapter_x86.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\libsmartscreen.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\microsoft_apis.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\onnxruntime.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\vccorlib140.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\concrt140.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\cookie_exporter.exe">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\d3dcompiler_47.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\dual_engine_adapter_x64.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\eventlog_provider.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\identity_helper.exe">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\learning_tools.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\microsoft_shell_integration.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\mip_ClientTelemetry.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\mip_core.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\mip_protection_sdk.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\mip_telemetry.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\msedge.exe">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\msedgewebview.exe">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\msvcp140.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\notification_helper.exe">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\onramp.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\PlayReadyCdm\_platform_specific\win_x86\playreadycdm.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\pwahelper.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\vcruntime140.dll">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Advertising">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Analytics">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\MLModels\autofill_labeling.onnx">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\MLModels\autofill_labeling_email.onnx">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\CompatExceptions">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Content">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Cryptomining">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Entities">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Fingerprinting">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\LICENSE">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\manifest.json">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\WidevineCdm\manifest.json">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\msedge_200_percent.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\MLModels\nexturl.onnx">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Other">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Social">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\msedge_100_percent.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\af.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\am.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ar.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\as.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\az.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\be.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\bg.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\bn.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\bn-IN.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\bs.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ca.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ca-Es-VALENCIA.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\chr.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\cs.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\cy.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\da.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\de.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\de.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\el.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\en-GB.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\en-US.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\es.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\es.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\es-419.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\et.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\eu.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Extensions\external_extensions.json">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\fa.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\fi.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\fil.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\fr.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\fr.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\fr-CA.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ga.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\gd.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\gl.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\gu.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\he.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\hi.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\hr.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\hu.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\hy.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\icudtl.dat">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\id.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\is.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\it.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\it.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\ja.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ja.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ka.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\kk.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\km.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\kn.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\ko.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ko.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\kok.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ky.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\lb.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\lo.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\lt.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\lv.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\MEIPreload\manifest.json">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\mi.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\mk.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ml.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\mn.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\mr.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ms.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\mt.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\nacl_irt_x86_32.nexe">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\nacl_irt_x86_64.nexe">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\nb.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ne.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\nl.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\nn.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\or.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\pa.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\pl.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\MEIPreload\preloaded_data.pb">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\prs.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\pt-BR.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\pt-BR.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\pt-PT.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\qu.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\resources.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ro.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\ru.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ru.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\sd.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\si.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\sk.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\sl.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\sq.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\sr.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\sr-Cyrl-BA.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\sr-Latn-RS.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\sv.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\sw.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ta.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\te.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\th.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\tk.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\tr.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\tt.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ug.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\uk.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\ur.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\uz-Latn.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\v8_context_snapshot.bin">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\vi.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\zh-CN.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\zh-CN.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\zh-TW.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\x32\Locales\zh-TW.pak">
+      <Filter>BYO\x32</Filter>
+    </None>
+    <None Include="BYO\arm64\about_credits.html">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll.sig">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_x86\widevinecdm_host.exe.sig">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_arm64\widevinecdm_proxy.dll.sig">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\msedge.dll.sig">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\msedge.exe.sig">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\msedgewebview.exe.sig">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\swiftshader\libGLESv2.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\libGLESv2.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\swiftshader\libEGL.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\libEGL.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\onramp.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\vccorlib140.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\eventlog_provider.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\elevation_service.exe">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\msedge.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\EBWebView\arm64\EmbeddedBrowserWebView.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\msedge.exe">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\EBWebView\x86\EmbeddedBrowserWebView.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_arm64\widevinecdm_proxy.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\wns_push_client.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\identity_helper.exe">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\learning_tools.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\msedge_elf.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\oneauth.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\telclient.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_x86\widevinecdm_host.exe">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\PlayReadyCdm\_platform_specific\win_arm64\playreadycdm.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\cookie_exporter.exe">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\microsoft_shell_integration.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\msedgewebview.exe">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\notification_helper.exe">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\oneds.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\pwahelper.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\microsoft_apis.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\concrt140.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\dual_engine_adapter_x86.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\libsmartscreen.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\mip_ClientTelemetry.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\mip_core.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\mip_protection_sdk.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\mip_telemetry.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\msvcp140.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\onnxruntime.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\vcruntime140.dll">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Advertising">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Analytics">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\MLModels\autofill_labeling.onnx">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\MLModels\autofill_labeling_email.onnx">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\CompatExceptions">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Content">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Cryptomining">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Entities">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Fingerprinting">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\LICENSE">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\manifest.json">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\manifest.json">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\msedge_100_percent.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\msedge_200_percent.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\MLModels\nexturl.onnx">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Other">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Social">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\af.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\am.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ar.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\as.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\az.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\be.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\bg.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\bn.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\bn-IN.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\bs.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ca.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ca-Es-VALENCIA.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\chr.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\cs.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\cy.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\da.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\de.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\de.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\el.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\en-GB.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\en-US.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\es.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\es.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\es-419.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\et.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\eu.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Extensions\external_extensions.json">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\fa.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\fi.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\fil.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\fr.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\fr.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\fr-CA.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ga.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\gd.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\gl.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\gu.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\he.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\hi.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\hr.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\hu.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\hy.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\icudtl.dat">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\id.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\is.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\it.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\it.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\ja.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ja.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ka.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\kk.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\km.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\kn.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\ko.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ko.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\kok.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ky.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\lb.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\lo.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\lt.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\lv.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\MEIPreload\manifest.json">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\mi.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\mk.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ml.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\mn.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\mr.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ms.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\mt.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\nb.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ne.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\nl.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\nn.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\or.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\pa.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\pl.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\MEIPreload\preloaded_data.pb">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\prs.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\pt-BR.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\pt-BR.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\pt-PT.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\qu.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\resources.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ro.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\ru.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ru.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\sd.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\si.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\sk.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\sl.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\sq.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\sr.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\sr-Cyrl-BA.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\sr-Latn-RS.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\sv.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\sw.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ta.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\te.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\th.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\tk.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\tr.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\tt.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ug.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\uk.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\ur.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\uz-Latn.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\v8_context_snapshot.bin">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\vi.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\zh-CN.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\zh-CN.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\zh-TW.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="BYO\arm64\Locales\zh-TW.pak">
+      <Filter>BYO\arm64</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)$(EffectivePlatform)\WebView2Loader.dll" />
+    <None Include="BYO\x64\BYO_x64.vcxitems">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\about_credits.html">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\msedge.dll.sig">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\WidevineCdm\_platform_specific\win_x64\widevinecdm.dll.sig">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\msedge.exe.sig">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\msedgewebview.exe.sig">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\WidevineCdm\_platform_specific\win_x64\widevinecdm.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\swiftshader\libEGL.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\libGLESv2.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\swiftshader\libGLESv2.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\libEGL.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\msvcp140.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\EBWebView\x64\EmbeddedBrowserWebView.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\vcruntime140.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\msedge.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\wdag.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\msedgewebview.exe">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\learning_tools.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\microsoft_apis.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\mip_core.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\notification_helper.exe">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\oneds.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\onnxruntime.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\cookie_exporter.exe">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\EBWebView\x86\EmbeddedBrowserWebView.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\libsmartscreen.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\msedge_elf.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\PlayReadyCdm\_platform_specific\win_x64\playreadycdm.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\elevation_service.exe">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\identity_helper.exe">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\microsoft_shell_integration.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\msedge.exe">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\oneauth.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\onramp.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\pwahelper.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\telclient.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\wns_push_client.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\concrt140.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\eventlog_provider.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\vccorlib140.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\d3dcompiler_47.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\dual_engine_adapter_x64.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\mip_ClientTelemetry.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\mip_protection_sdk.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\mip_telemetry.dll">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Advertising">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Analytics">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\MLModels\autofill_labeling.onnx">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\MLModels\autofill_labeling_email.onnx">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\CompatExceptions">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Content">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Cryptomining">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Entities">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Fingerprinting">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\LICENSE">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\manifest.json">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\WidevineCdm\manifest.json">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\msedge_200_percent.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\MLModels\nexturl.onnx">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Other">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Social">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ca-Es-VALENCIA.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\de.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\es.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\fr.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\hu.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\hy.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\id.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\is.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\it.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\it.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\ja.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ja.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ka.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\kk.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\km.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\kn.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\ko.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ko.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\kok.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ky.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\lb.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\lo.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\lt.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\lv.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\MEIPreload\manifest.json">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\mi.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\mk.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ml.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\mn.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\mr.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ms.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\msedge_100_percent.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\mt.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\nb.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ne.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\nl.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\nn.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\or.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\pa.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\pl.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\MEIPreload\preloaded_data.pb">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\prs.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\pt-BR.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\pt-BR.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\pt-PT.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\qu.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ro.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\ru.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ru.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\sd.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\si.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\sk.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\sl.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\sq.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\sr.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\sr-Cyrl-BA.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\sr-Latn-RS.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\sv.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\sw.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ta.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\te.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\th.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\tk.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\tr.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\tt.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ug.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\uk.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ur.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\uz-Latn.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\vi.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\zh-CN.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\zh-CN.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\zh-TW.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\zh-TW.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\af.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\am.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ar.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\as.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\az.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\be.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\bg.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\bn.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\bn-IN.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\bs.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ca.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\chr.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\cs.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\cy.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\da.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\de.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\el.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\en-GB.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\en-US.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\es.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\es-419.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\et.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\eu.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Extensions\external_extensions.json">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\fa.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\fi.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\fil.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\fr.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\fr-CA.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\ga.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\gd.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\gl.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\gu.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\he.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\hi.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\Locales\hr.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\icudtl.dat">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\nacl_irt_x86_64.nexe">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\resources.pak">
+      <Filter>BYO\X64</Filter>
+    </None>
+    <None Include="BYO\x64\v8_context_snapshot.bin">
+      <Filter>BYO\X64</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="BYO\x32\84.0.507.0.manifest">
+      <Filter>BYO\x32</Filter>
+    </Manifest>
+    <Manifest Include="BYO\arm64\84.0.507.0.manifest">
+      <Filter>BYO\arm64</Filter>
+    </Manifest>
+    <Manifest Include="BYO\x64\84.0.507.0.manifest">
+      <Filter>BYO\X64</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="BYO\x32\MLModels\autofill_labeling_features.txt">
+      <Filter>BYO\x32</Filter>
+    </Text>
+    <Text Include="BYO\x32\MLModels\autofill_labeling_features_email.txt">
+      <Filter>BYO\x32</Filter>
+    </Text>
+    <Text Include="BYO\arm64\MLModels\autofill_labeling_features.txt">
+      <Filter>BYO\arm64</Filter>
+    </Text>
+    <Text Include="BYO\arm64\MLModels\autofill_labeling_features_email.txt">
+      <Filter>BYO\arm64</Filter>
+    </Text>
+    <Text Include="BYO\x64\MLModels\autofill_labeling_features.txt">
+      <Filter>BYO\X64</Filter>
+    </Text>
+    <Text Include="BYO\x64\MLModels\autofill_labeling_features_email.txt">
+      <Filter>BYO\X64</Filter>
+    </Text>
   </ItemGroup>
 </Project>

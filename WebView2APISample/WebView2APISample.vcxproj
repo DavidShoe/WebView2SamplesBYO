@@ -72,8 +72,7 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared">
-  </ImportGroup>
+  <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -235,17 +234,1727 @@
     <ResourceCompile Include="WebView2APISample.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="BYO\arm64\Notifications\SoftLandingAssetDark.gif">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\arm64\Notifications\SoftLandingAssetLight.gif">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\Logo.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\LogoBeta.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\LogoCanary.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\LogoDev.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\SmallLogo.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\SmallLogoBeta.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\SmallLogoCanary.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\arm64\VisualElements\SmallLogoDev.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x32\Notifications\SoftLandingAssetDark.gif">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x32\Notifications\SoftLandingAssetLight.gif">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\Logo.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\LogoBeta.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\LogoCanary.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\LogoDev.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\SmallLogo.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\SmallLogoBeta.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\SmallLogoCanary.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x32\VisualElements\SmallLogoDev.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x64\Notifications\SoftLandingAssetDark.gif">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x64\Notifications\SoftLandingAssetLight.gif">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\Logo.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\LogoBeta.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\LogoCanary.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\LogoDev.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\SmallLogo.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\SmallLogoBeta.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\SmallLogoCanary.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="BYO\x64\VisualElements\SmallLogoDev.png">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
     <Image Include="small.ico" />
     <Image Include="WebView2APISample.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <CopyFileToFolders Include="ScenarioAddRemoteObject.html" />
     <CopyFileToFolders Include="ScenarioWebMessage.html" />
     <CopyFileToFolders Include="ScenarioWebViewEventMonitor.html" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="HostObjectSample.idl" TypeLibraryName="$(OutDir)WebView2APISample.tlb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BYO\arm64\about_credits.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\concrt140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\cookie_exporter.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\dual_engine_adapter_x86.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\EBWebView\arm64\EmbeddedBrowserWebView.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\EBWebView\x86\EmbeddedBrowserWebView.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\elevation_service.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\eventlog_provider.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Extensions\external_extensions.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\icudtl.dat">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\identity_helper.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\learning_tools.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\libEGL.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\libGLESv2.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\libsmartscreen.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\af.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\am.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ar.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\as.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\az.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\be.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\bg.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\bn-IN.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\bn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\bs.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ca-Es-VALENCIA.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ca.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\chr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\cs.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\cy.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\da.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\de.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\de.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\es.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\fr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\it.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\ja.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\ko.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\pt-BR.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\ru.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\zh-CN.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\devtools\zh-TW.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\el.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\en-GB.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\en-US.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\es-419.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\es.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\et.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\eu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\fa.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\fi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\fil.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\fr-CA.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\fr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ga.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\gd.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\gl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\gu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\he.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\hi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\hr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\hu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\hy.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\id.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\is.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\it.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ja.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ka.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\kk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\km.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\kn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ko.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\kok.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ky.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\lb.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\lo.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\lt.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\lv.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\mi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\mk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ml.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\mn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\mr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ms.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\mt.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\nb.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ne.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\nl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\nn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\or.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\pa.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\pl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\prs.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\pt-BR.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\pt-PT.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\qu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ro.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ru.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\sd.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\si.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\sk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\sl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\sq.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\sr-Cyrl-BA.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\sr-Latn-RS.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\sr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\sv.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\sw.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ta.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\te.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\th.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\tk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\tr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\tt.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ug.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\uk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\ur.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\uz-Latn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\vi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\zh-CN.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Locales\zh-TW.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\MEIPreload\manifest.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\MEIPreload\preloaded_data.pb">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\microsoft_apis.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\microsoft_shell_integration.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\mip_ClientTelemetry.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\mip_core.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\mip_protection_sdk.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\mip_telemetry.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\MLModels\autofill_labeling.onnx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\MLModels\autofill_labeling_email.onnx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\MLModels\nexturl.onnx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\msedge.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\msedge.dll.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\msedge.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\msedge.exe.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\msedgewebview.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\msedgewebview.exe.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\msedge_100_percent.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\msedge_200_percent.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\msedge_elf.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\msvcp140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\notification_helper.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\oneauth.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\oneds.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\onnxruntime.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\onramp.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\PlayReadyCdm\_platform_specific\win_arm64\playreadycdm.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\pwahelper.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\resources.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\swiftshader\libEGL.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\swiftshader\libGLESv2.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\telclient.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Advertising">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Analytics">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\CompatExceptions">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Content">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Cryptomining">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Entities">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Fingerprinting">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\LICENSE">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\manifest.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Other">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\Trust Protection Lists\Social">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\v8_context_snapshot.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\vccorlib140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\vcruntime140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\manifest.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_arm64\widevinecdm_proxy.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_arm64\widevinecdm_proxy.dll.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_x86\widevinecdm_host.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\WidevineCdm\_platform_specific\win_x86\widevinecdm_host.exe.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\arm64\wns_push_client.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\about_credits.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\concrt140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\cookie_exporter.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\d3dcompiler_47.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\dual_engine_adapter_x64.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\dual_engine_adapter_x86.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\EBWebView\x86\EmbeddedBrowserWebView.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\elevation_service.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\eventlog_provider.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Extensions\external_extensions.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\icudtl.dat">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\identity_helper.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\learning_tools.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\libEGL.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\libGLESv2.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\libsmartscreen.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\af.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\am.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ar.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\as.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\az.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\be.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\bg.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\bn-IN.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\bn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\bs.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ca-Es-VALENCIA.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ca.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\chr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\cs.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\cy.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\da.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\de.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\de.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\es.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\fr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\it.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\ja.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\ko.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\pt-BR.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\ru.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\zh-CN.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\devtools\zh-TW.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\el.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\en-GB.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\en-US.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\es-419.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\es.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\et.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\eu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\fa.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\fi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\fil.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\fr-CA.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\fr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ga.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\gd.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\gl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\gu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\he.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\hi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\hr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\hu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\hy.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\id.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\is.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\it.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ja.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ka.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\kk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\km.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\kn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ko.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\kok.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ky.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\lb.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\lo.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\lt.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\lv.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\mi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\mk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ml.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\mn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\mr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ms.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\mt.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\nb.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ne.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\nl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\nn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\or.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\pa.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\pl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\prs.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\pt-BR.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\pt-PT.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\qu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ro.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ru.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\sd.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\si.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\sk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\sl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\sq.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\sr-Cyrl-BA.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\sr-Latn-RS.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\sr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\sv.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\sw.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ta.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\te.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\th.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\tk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\tr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\tt.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ug.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\uk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\ur.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\uz-Latn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\vi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\zh-CN.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Locales\zh-TW.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\MEIPreload\manifest.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\MEIPreload\preloaded_data.pb">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\microsoft_apis.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\microsoft_shell_integration.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\mip_ClientTelemetry.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\mip_core.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\mip_protection_sdk.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\mip_telemetry.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\MLModels\autofill_labeling.onnx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\MLModels\autofill_labeling_email.onnx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\MLModels\nexturl.onnx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\msedge.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\msedge.dll.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\msedge.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\msedge.exe.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\msedgewebview.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\msedgewebview.exe.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\msedge_100_percent.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\msedge_200_percent.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\msedge_elf.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\msvcp140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\nacl64.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\nacl_irt_x86_32.nexe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\nacl_irt_x86_64.nexe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\notification_helper.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\oneauth.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\oneds.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\onnxruntime.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\onramp.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\PlayReadyCdm\_platform_specific\win_x86\playreadycdm.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\pwahelper.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\resources.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\swiftshader\libEGL.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\swiftshader\libGLESv2.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\telclient.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Advertising">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Analytics">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\CompatExceptions">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Content">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Cryptomining">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Entities">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Fingerprinting">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\LICENSE">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\manifest.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Other">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\Trust Protection Lists\Social">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\v8_context_snapshot.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\vccorlib140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\vcruntime140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\WidevineCdm\manifest.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x32\wns_push_client.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\about_credits.html">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\BYO_x64.vcxitems">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\concrt140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\cookie_exporter.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\d3dcompiler_47.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\dual_engine_adapter_x64.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\EBWebView\x64\EmbeddedBrowserWebView.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\EBWebView\x86\EmbeddedBrowserWebView.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\elevation_service.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\eventlog_provider.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Extensions\external_extensions.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\icudtl.dat">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\identity_helper.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\learning_tools.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\libEGL.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\libGLESv2.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\libsmartscreen.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\af.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\am.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ar.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\as.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\az.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\be.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\bg.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\bn-IN.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\bn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\bs.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ca-Es-VALENCIA.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ca.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\chr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\cs.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\cy.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\da.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\de.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\de.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\es.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\fr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\it.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\ja.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\ko.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\pt-BR.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\ru.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\zh-CN.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\devtools\zh-TW.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\el.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\en-GB.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\en-US.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\es-419.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\es.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\et.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\eu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\fa.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\fi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\fil.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\fr-CA.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\fr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ga.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\gd.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\gl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\gu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\he.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\hi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\hr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\hu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\hy.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\id.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\is.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\it.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ja.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ka.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\kk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\km.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\kn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ko.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\kok.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ky.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\lb.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\lo.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\lt.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\lv.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\mi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\mk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ml.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\mn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\mr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ms.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\mt.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\nb.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ne.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\nl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\nn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\or.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\pa.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\pl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\prs.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\pt-BR.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\pt-PT.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\qu.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ro.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ru.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\sd.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\si.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\sk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\sl.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\sq.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\sr-Cyrl-BA.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\sr-Latn-RS.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\sr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\sv.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\sw.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ta.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\te.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\th.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\tk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\tr.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\tt.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ug.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\uk.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\ur.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\uz-Latn.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\vi.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\zh-CN.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Locales\zh-TW.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\MEIPreload\manifest.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\MEIPreload\preloaded_data.pb">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\microsoft_apis.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\microsoft_shell_integration.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\mip_ClientTelemetry.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\mip_core.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\mip_protection_sdk.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\mip_telemetry.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\MLModels\autofill_labeling.onnx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\MLModels\autofill_labeling_email.onnx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\MLModels\nexturl.onnx">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\msedge.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\msedge.dll.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\msedge.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\msedge.exe.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\msedgewebview.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\msedgewebview.exe.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\msedge_100_percent.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\msedge_200_percent.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\msedge_elf.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\msvcp140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\nacl_irt_x86_64.nexe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\notification_helper.exe">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\oneauth.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\oneds.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\onnxruntime.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\onramp.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\PlayReadyCdm\_platform_specific\win_x64\playreadycdm.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\pwahelper.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\resources.pak">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\swiftshader\libEGL.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\swiftshader\libGLESv2.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\telclient.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Advertising">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Analytics">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\CompatExceptions">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Content">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Cryptomining">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Entities">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Fingerprinting">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\LICENSE">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\manifest.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Other">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\Trust Protection Lists\Social">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\v8_context_snapshot.bin">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\vccorlib140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\vcruntime140.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\wdag.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\WidevineCdm\manifest.json">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\WidevineCdm\_platform_specific\win_x64\widevinecdm.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\WidevineCdm\_platform_specific\win_x64\widevinecdm.dll.sig">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="BYO\x64\wns_push_client.dll">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Update="E:\github\WebView2SampleBYO\BYO\x64\..\BYO\x64\wns_push_client.dll">
+      <FileType>Document</FileType>
+    </CopyFileToFolders>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="WebView2APISample_WinCompHelper\WebView2APISample_WinCompHelper.vcxproj">
+      <Project>{481b265c-8ff5-4b30-9905-6ae3e559f284}</Project>
+      <Private>true</Private>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="BYO\arm64\84.0.507.0.manifest">
+      <DeploymentContent>true</DeploymentContent>
+    </Manifest>
+    <Manifest Include="BYO\x32\84.0.507.0.manifest">
+      <DeploymentContent>true</DeploymentContent>
+    </Manifest>
+    <Manifest Include="BYO\x64\84.0.507.0.manifest">
+      <DeploymentContent>true</DeploymentContent>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="BYO\arm64\MLModels\autofill_labeling_features.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="BYO\arm64\MLModels\autofill_labeling_features_email.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="BYO\x32\MLModels\autofill_labeling_features.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="BYO\x32\MLModels\autofill_labeling_features_email.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="BYO\x64\MLModels\autofill_labeling_features.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="BYO\x64\MLModels\autofill_labeling_features_email.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

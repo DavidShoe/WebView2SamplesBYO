@@ -387,7 +387,7 @@ void AppWindow::InitializeWebView(InitializeWebViewFlags webviewInitFlags)
     // getting created which will apply the browser switches.
     CloseWebView();
 
-    LPCWSTR subFolder = nullptr;
+    std::wstring subFolder = L"";
     m_dcompDevice = nullptr;
     m_wincompHelper = nullptr;
     LPCWSTR additionalBrowserSwitches = nullptr;
@@ -424,8 +424,30 @@ void AppWindow::InitializeWebView(InitializeWebViewFlags webviewInitFlags)
     CHECK_FAILURE(options->put_AdditionalBrowserArguments(additionalBrowserSwitches));
     if(!m_language.empty())
         CHECK_FAILURE(options->put_Language(m_language.c_str()));
+
+
+    wchar_t system_buffer[MAX_PATH];
+    system_buffer[0] = 0;
+    DWORD len = ::GetModuleFileName(g_hInstance, system_buffer, MAX_PATH);
+    if (len == 0 || len > MAX_PATH)
+    {
+        OutputDebugString(L"Unable to get module file path");
+        //return E_FAIL;
+    }
+    std::wstring fullPath(system_buffer, len);
+    size_t found = fullPath.find_last_of(L"/\\");
+    std::wstring path = fullPath.substr(0, found);
+    std::wstring m_exe_path = path;
+
+    subFolder = m_exe_path;
+    subFolder += L"\\byo\\x64";
+
+    OutputDebugString(L"Working path: ");
+    OutputDebugString(subFolder.c_str());
+    OutputDebugString(L"\r\n");
+
     HRESULT hr = CreateCoreWebView2EnvironmentWithOptions(
-        subFolder, nullptr, options.Get(),
+        subFolder.c_str(), nullptr, options.Get(),
         Callback<ICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler>(
             this, &AppWindow::OnCreateEnvironmentCompleted)
             .Get());
